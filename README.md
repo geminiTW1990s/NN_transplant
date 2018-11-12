@@ -1,5 +1,5 @@
 # NN_transplant
-## _A precious lesson to learn for a neural network freshman (<- yeah ...... it's me~).
+## _A precious lesson to learn for a neural network freshman (<- yeah ...... it's me~)._
 
 ## Description:
 #### This 3-layer neural network was referred from CS231n course of Stanford university. And the backbone of these codes was referred from mattmazur/simple_neural_network. I intended to realized the word2vec network based on the structure of mattmazur's code. Let's see how far I could go!
