@@ -290,6 +290,7 @@ class Neuron:
 
 
 if __name__ == "__main__":
+	# XOR example test
 	n_sample = 101
 	training_sets = [
 			 [[0, 0], [1, 0]],
@@ -300,8 +301,10 @@ if __name__ == "__main__":
 	nn = NeuralNetwork(len(training_sets[0][0]), 5, len(training_sets[0][1]), num_example=n_sample, lrate = 0.8)
 	for i in range(n_sample):
 		training_inputs, training_outputs = random.choice(training_sets)
-	#    nn.test(training_inputs = training_inputs, training_outputs = training_outputs)
+		nn.test(training_inputs = training_inputs, training_outputs = training_outputs)
 
+
+	# CS231n example test
 	np.random.seed(0)
 	N = 100; D = 2; K = 3
 	X = np.zeros((N*K, D)); y = np.zeros((N*K, K), dtype = 'uint8')
