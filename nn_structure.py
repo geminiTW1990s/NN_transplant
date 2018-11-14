@@ -14,6 +14,7 @@ REGULARIZATION_STRENGTH_SOFTMAX = 0.001
 #     Second, tune the weights by back-propagation depending on the predicted results
 class NeuralNetwork:
 
+    # Test the network with the following process: Feed forwarding -> Back-propagating -> Feed forwarding again for prediction
     def test(self, training_inputs, training_outputs):
         self.feed_forward(training_inputs, print_status = False, print_hidden_status = False)
         self.prop_backward_softmax(training_outputs)
