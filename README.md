@@ -11,3 +11,8 @@
 ### Hidden layer: 100 neurons
 ### Output layer: 3 neurons representing 3 classess
 
+## Conclusion and Future:
+##### For a quick understand to the structure of neural network, I've made my hand dirty and have this 3-layer network born.
+##### The materials and implementations will be stored in this respiratory. I'll be appreciated for any form of feedback!
+##### https://github.com/geminiTW1990s/DL-RL-NLP-materials-digestion
+##### In the future, I'll go further into field of deep learning networks. Let's see how far I could go!
